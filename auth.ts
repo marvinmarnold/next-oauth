@@ -81,7 +81,10 @@ export const config = {
     // BoxyHQSAML,
     // Bungie,
     // Cognito,
-    Coinbase,
+    Coinbase({
+      clientId: process.env.AUTH_COINBASE_ID,
+      clientSecret: process.env.AUTH_COINBASE_SECRET
+    }),
     // Discord,
     // Dropbox,
     // DuendeIDS6,
