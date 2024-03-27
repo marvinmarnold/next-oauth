@@ -11,7 +11,7 @@ import NextAuth from "next-auth"
 // import BoxyHQSAML from "next-auth/providers/boxyhq-saml"
 // import Bungie from "next-auth/providers/bungie"
 // import Cognito from "next-auth/providers/cognito"
-// import Coinbase from "next-auth/providers/coinbase"
+import Coinbase from "next-auth/providers/coinbase"
 // import Discord from "next-auth/providers/discord"
 // import Dropbox from "next-auth/providers/dropbox"
 // import DuendeIDS6 from "next-auth/providers/duende-identity-server6"
@@ -81,7 +81,7 @@ export const config = {
     // BoxyHQSAML,
     // Bungie,
     // Cognito,
-    // Coinbase,
+    Coinbase,
     // Discord,
     // Dropbox,
     // DuendeIDS6,
